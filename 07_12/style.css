@@ -1,0 +1,26 @@
+body {
+    margin: 100px;
+    padding: 0;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    border-radius: 10px;
+    border: 2px solid #1D2B53;
+    padding: 20px;
+}
+
+#perfil {
+    text-align: center;
+}
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #FF004D;
+    width: 100%;
+    box-sizing: border-box;
+}

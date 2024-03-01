@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let permissao = window.prompt ("QUAL A SUA PERMISSÃO?")
+        permissao = permissao.toLowerCase()   
+    switch (permissao){
+    case "comum":
+    alert (`A SUA PERMISSÃO É COMUM`);
+    break;
+    
+    case "gerente":
+    alert (`A SUA PERMISSÃO É GERENTE`);
+    break;
+    
+    case "diretor":
+    alert (`A SUA PERMISSÃO É DIRETOR`);
+    break;
+
+    default:
+    alert (`USUÁRIO NÃO TEM PERMISSÃO`);
+}
+    </script>
+</body>
+</html>

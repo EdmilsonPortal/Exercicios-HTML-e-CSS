@@ -1,0 +1,20 @@
+<!-ESCREVA UM PROGRAMA QUE SOLICITE AO USUÁRIO PARA DIGITAR UMA SENHA. O PROGRAMA DEVE CONTINUAR PEDINDO A SENHA ATÉ QUE O USUÁRIO INSIRA A SENHA CORRETA.->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let senha_correta = "teste123"
+      let senha = prompt("DIGITE SUA SENHA:")
+      while(senha !== senha_correta){
+        alert("Senha Incorreta")
+        senha = prompt("DIGITE SUA SENHA:")
+      }
+      alert("Senha Correta")
+    </script>
+</body>
+</html>

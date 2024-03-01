@@ -1,0 +1,25 @@
+<!–Escreva um programa que verifique avalidade de uma senha fornecida pelo usuário. A senha válida é o número 1234.
+- Devem ser impressas as seguintes mensagens:
+- ACESSO PERMITIDO caso a senha seja válida.
+- ACESSO NEGADO caso a senha não seja válida.->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AUTENTICAÇÃO</h1>
+    <script>
+        let senha = Number(prompt("DIGITE SUA SENHA"))
+                if(senha === 1234){
+            document.write(`ACESSO PERMITIDO`)
+        }
+        else{
+            document.write(`ACESSO NEGADO`)
+        }
+    </script>
+</body>
+</html>
